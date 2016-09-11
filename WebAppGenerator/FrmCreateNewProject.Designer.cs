@@ -47,7 +47,7 @@
             this.btnCreateProject.Location = new System.Drawing.Point(187, 186);
             this.btnCreateProject.Name = "btnCreateProject";
             this.btnCreateProject.Size = new System.Drawing.Size(115, 23);
-            this.btnCreateProject.TabIndex = 18;
+            this.btnCreateProject.TabIndex = 5;
             this.btnCreateProject.Text = "Create Project";
             this.btnCreateProject.UseVisualStyleBackColor = true;
             this.btnCreateProject.Click += new System.EventHandler(this.btnCreateProject_Click);
@@ -57,7 +57,7 @@
             this.btnProjectLocation.Location = new System.Drawing.Point(427, 127);
             this.btnProjectLocation.Name = "btnProjectLocation";
             this.btnProjectLocation.Size = new System.Drawing.Size(24, 23);
-            this.btnProjectLocation.TabIndex = 17;
+            this.btnProjectLocation.TabIndex = 4;
             this.btnProjectLocation.Text = "...";
             this.btnProjectLocation.UseVisualStyleBackColor = true;
             this.btnProjectLocation.Click += new System.EventHandler(this.btnProjectLocation_Click);
@@ -67,7 +67,7 @@
             this.txtProjectLocation.Location = new System.Drawing.Point(124, 127);
             this.txtProjectLocation.Name = "txtProjectLocation";
             this.txtProjectLocation.Size = new System.Drawing.Size(297, 20);
-            this.txtProjectLocation.TabIndex = 14;
+            this.txtProjectLocation.TabIndex = 3;
             this.txtProjectLocation.TextChanged += new System.EventHandler(this.txtProjectLocation_TextChanged);
             // 
             // lblProjectLocation
@@ -88,7 +88,7 @@
             this.cboProjectType.Location = new System.Drawing.Point(124, 39);
             this.cboProjectType.Name = "cboProjectType";
             this.cboProjectType.Size = new System.Drawing.Size(327, 21);
-            this.cboProjectType.TabIndex = 10;
+            this.cboProjectType.TabIndex = 6;
             this.cboProjectType.Tag = "";
             this.cboProjectType.TextChanged += new System.EventHandler(this.cboProjectType_TextChanged);
             // 
@@ -106,7 +106,7 @@
             this.txtSolutionName.Location = new System.Drawing.Point(124, 98);
             this.txtSolutionName.Name = "txtSolutionName";
             this.txtSolutionName.Size = new System.Drawing.Size(327, 20);
-            this.txtSolutionName.TabIndex = 13;
+            this.txtSolutionName.TabIndex = 2;
             this.txtSolutionName.TextChanged += new System.EventHandler(this.txtSolutionName_TextChanged);
             // 
             // txtProjectName
@@ -114,7 +114,7 @@
             this.txtProjectName.Location = new System.Drawing.Point(124, 69);
             this.txtProjectName.Name = "txtProjectName";
             this.txtProjectName.Size = new System.Drawing.Size(327, 20);
-            this.txtProjectName.TabIndex = 12;
+            this.txtProjectName.TabIndex = 1;
             this.txtProjectName.TextChanged += new System.EventHandler(this.txtProjectName_TextChanged);
             this.txtProjectName.Leave += new System.EventHandler(this.txtProjectName_Leave);
             // 

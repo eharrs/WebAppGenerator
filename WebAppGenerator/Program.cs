@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace WebAppGenerator
@@ -14,9 +11,13 @@ namespace WebAppGenerator
         [STAThread]
         static void Main()
         {
+            // Make sure the Settings.xml file is in the same directory as this app's executable.
+            Settings settings = new Settings();
+            settings.LoadSettings( "Settings.xml" );
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault( false );
-            Application.Run( new frmWebAppGenerator() );
+            Application.Run( new frmWebAppGenerator( settings ) );
         }
     }
 }

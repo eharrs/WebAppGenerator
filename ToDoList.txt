@@ -1,0 +1,1 @@
+Add success message when solution is created.

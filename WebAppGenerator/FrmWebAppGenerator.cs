@@ -1,19 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace WebAppGenerator
 {
     public partial class frmWebAppGenerator : Form
     {
-        public frmWebAppGenerator()
+        private readonly Settings _settings;
+
+        public frmWebAppGenerator( Settings settings )
         {
+            _settings = settings;
             InitializeComponent();
         }
 
@@ -26,7 +22,7 @@ namespace WebAppGenerator
 
         private void projectNewMenuItem_Click( object sender, EventArgs e )
         {
-            FrmCreateNewProject frmCreateNewProject = new FrmCreateNewProject();
+            FrmCreateNewProject frmCreateNewProject = new FrmCreateNewProject( _settings );
             frmCreateNewProject.Show();
         }
 

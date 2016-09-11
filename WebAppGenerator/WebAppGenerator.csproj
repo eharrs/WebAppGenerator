@@ -59,7 +59,10 @@
       <DependentUpon>FrmWebAppGenerator.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
+    <Compile Include="ProjectFilesManipulation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="ShellScriptRunner.cs" />
     <EmbeddedResource Include="FrmCreateNewProject.resx">
       <DependentUpon>FrmCreateNewProject.cs</DependentUpon>
     </EmbeddedResource>
